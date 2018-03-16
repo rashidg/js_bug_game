@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GAME</title>
+    <link rel="stylesheet" media="screen" href="style.css">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <div class="infobar">
+                <div id='timer'>60 sec</div>
+                <div id='pause'>&#10073;&#10073;</div>
+                <div id='score'>Score: 0</div>
+            </div>
+            <canvas id="myCanvas" width="400" height="600"></canvas>
+        </div>
+    </div>  
+
+    <div id='popup-c' class="container-popup" style="display: none;">
+        <div class="popup">
+            <h1>Game Over</h1>
+            <br>
+            <div id='pscore'>Score : 0</div><br>
+            <form method='post'>
+                <input type="button" value="Restart" class="btn"  onclick='restart()'>
+            </form>
+            <form action="./a2.html">
+                <input type="submit" value="Main menu">
+            </form>
+        </div>
+    </div>
+    <script src="game_script.js"></script>
+</body>
+</html>

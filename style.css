@@ -1,0 +1,165 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: helvetica,verdana,arial;
+}
+body {
+    background-color: #EEEEEE;
+}
+h2{
+	text-align: center;
+	margin: 1%;
+}
+.levelSelector{
+	width: 50%;
+	margin-left:25%;
+	text-align: center;
+}
+.checkboxgroup{
+    display:inline-block;
+}
+.checkboxgroup label {
+    display:block;
+}
+.btn
+{
+    display:block;
+
+    padding: 5%;
+    margin: auto;
+
+    margin-bottom: 1%;
+}
+.container{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.game-menu{
+	width: 60%;
+	margin: auto;
+	margin-top: 5%;
+	color: #ECECEC;
+	background-color: #34495E;
+	border: 2px solid;
+	border-radius: 40px;
+	border-color: #2d4052;
+	line-height: 200%;
+	min-width: 300px;
+	font-size: 1.2em;
+}
+
+.highscore{
+	text-align: center;
+}
+
+.game{
+	width: 420px;
+	margin-left: 10%;
+	margin-top: 1%;
+}
+.infobar{
+	float: left;
+	width: 402px;
+	background-color: lightgrey;
+	height: 30px;
+	border: 1px solid;
+	border-color: black;
+	text-align: center;
+	padding: 0.5%;
+	padding-top: 1%;
+	box-sizing: border-box;
+}
+#myCanvas{
+	float: left;
+	border: 1px solid;
+	border-color: black;
+	background-color:white; 
+	margin-bottom: 1%;
+}
+#timer{
+	float: left;
+	width: 33%;
+	height: 100%;
+	text-align: center;
+}
+#pause{
+	float: left;
+	width: 33%;
+	height: 100%;
+	text-align: center;
+}
+
+.container-popup {
+    margin-left: 40%;
+    margin-right: 10%;
+}
+
+.popup {
+    padding: 15%;
+    position: absolute;
+    text-align: center;
+    line-height: 200%;
+}
+
+@media (max-width: 600px) {
+.game-menu{
+
+	width: 90%;
+	margin: auto;
+	margin-top: 1%;
+}
+}
+
+.infobar{
+	float: left;
+	width: 402px;
+	background-color: lightgrey;
+	height: 30px;
+	border: 1px solid;
+	border-color: black;
+	text-align: center;
+	padding: 0.5%;
+	padding-top: 1%;
+	box-sizing: border-box;
+}
+#myCanvas{
+	float: left;
+	border: 1px solid;
+	border-color: black;
+	background-color:white; 
+	margin-bottom: 1%;
+}
+#timer{
+	float: left;
+	width: 33%;
+	height: 100%;
+	text-align: center;
+}
+#pause{
+	float: left;
+	width: 33%;
+	height: 100%;
+	text-align: center;
+}
+
+.container-popup {
+    margin-left: 40%;
+    margin-right: 10%;
+}
+
+.popup {
+    padding: 15%;
+    position: absolute;
+    text-align: center;
+    line-height: 200%;
+}
+
+@media (max-width: 600px) {
+.game-menu{
+
+	width: 90%;
+	margin: auto;
+	margin-top: 1%;
+}
+}
